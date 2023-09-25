@@ -1,0 +1,28 @@
+TICKETS TABLE:
+INSERT INTO `tickets`(`DESC_`, `PRICE`) VALUES ('Karachi - Lahore','3000');
+INSERT INTO `tickets`(`DESC_`, `PRICE`) VALUES ('Karachi - Hyderabad','500');
+INSERT INTO `tickets`(`DESC_`, `PRICE`) VALUES ('Karachi - Islamabad','4000');
+INSERT INTO `tickets`(`DESC_`, `PRICE`) VALUES ('Multan - Lahore','1000');
+INSERT INTO `tickets`(`DESC_`, `PRICE`) VALUES ('Lahore - Murree','2000');
+
+TIMINGS TABLE:
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('1','08:00 am');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('1','02:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('1','05:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('1','10:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('2','12:00 am');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('2','03:00 am');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('2','06:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('2','09:00 am');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('3','05:00 am');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('3','10:00 am');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('3','02:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('3','04:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('4','01:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('4','02:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('4','03:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('4','04:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('5','10:00 pm');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('5','12:00 am');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('5','02:00 am');
+INSERT INTO `timings`(`TICKET_ID`, `TIMING`) VALUES ('5','04:00 am');
